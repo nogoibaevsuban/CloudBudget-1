@@ -1,0 +1,125 @@
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1024px) {
+  .contact{
+    max-width: 960px;
+  }
+  .contact__form{
+    width: 470px;
+  }
+}
+@media (max-width: 993px) {
+  .vafli{
+    display: none;
+  }
+  .header__logo-burger{
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .contact__form {
+    width: 100%;
+  }
+  .header__logo-burger {
+    position: relative;
+    top: 50px;
+    display: flex;
+  }
+  .vafli {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: #1da1f2;
+    position: fixed;
+    right: 30px;
+    top: 50px;
+
+    &-line {
+      height: 3px;
+      background-color: white;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 100%;
+
+      &::before {
+        position: absolute;
+        content: "";
+        background-color: white;
+        height: 3px;
+        top: -9px;
+        left: 0;
+        width: 100%;
+      }
+
+      &::after {
+        position: absolute;
+        content: "";
+        background-color: white;
+        height: 3px;
+        top: 9px;
+        left: 0;
+        width: 100%;
+      }
+
+    }
+  }
+  .vafli.active{
+    z-index: 3;
+    .vafli-line{
+      height: 0;
+      &::before{
+        transform: rotate(-45deg) ;
+        top: 0;
+      }
+      &::after{
+        transform: rotate(45deg) ;
+        top: 0;
+      }
+    }
+  }
+  .header__nav{
+    display: none;
+    z-index: 2;
+  }
+  .header__nav.active{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #1e1e1e;
+    justify-content: center;}
+    .header__logo{
+      display: none;
+    }
+    .header__menu{
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    .header__item{
+      margin-top: 15px;
+    }
+  .video__title{
+    line-height: 35px;
+    margin-top:0 ;
+    font-size: 28px;
+  }
+  .features__title{
+    font-size: 32px;
+    margin-bottom: 58px;
+  }
+  .home{
+    padding: 240px 0 ;
+  }
+}

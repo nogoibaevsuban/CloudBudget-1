@@ -1,0 +1,41 @@
+.stay {
+  padding: 94px 0 95px;
+  background: #ED4C5C;
+&__title{
+  @include text(43px);
+  font-family: Lato,sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  margin: 25px 0 50px;
+  color: #FFFFFF;
+
+}
+  .col-6{
+    padding-top: 25px;
+    padding-bottom: 16px;
+    &:nth-child(2){
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+  &__subtitle{
+    @include text(140%);
+    margin-bottom: 40px;
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: justify;
+    color:  #FFFFFF;
+  }
+  &__icon{
+    margin-right: 25px;
+    width: 32px;
+    height: 32px;
+  }
+  &__col-6{
+    height: 100%;
+    background: url("../image/stay/Video_bg (2).png") top left/100% 100% no-repeat;
+  }
+}
+

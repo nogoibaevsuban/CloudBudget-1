@@ -1,0 +1,9 @@
+.Technology {
+  padding: 63px 0 229px;
+  background: #FAFAFA top left/100% no-repeat;
+}
+.Technology__img:first-child .Technology__col {
+  background-color: #ED4C5C;
+  height: 200px;
+  width: 300px;
+}

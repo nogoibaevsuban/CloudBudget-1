@@ -1,0 +1,92 @@
+.contact {
+  padding: 117px 0 78px;
+
+  &__title {
+    line-height: 43px;
+    margin-bottom: 50px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+  }
+
+  &__subtitle {
+    line-height: 140%;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: justify;
+    color: #000000;
+  }
+
+  &__form {
+    width: 540px;
+  }
+
+  &__form-block {
+    height: 60px;
+    margin-bottom: 25px;
+
+    &:first-child{
+      display: flex;
+
+    }
+  }
+
+  &__input, &__select {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding-left: 16px;
+    outline: none;
+    appearance: none;
+    background:transparent ;
+  }
+
+  &__form-block:first-child label{
+    width: 50%;
+    margin-right: 30px;
+    &:nth-child(2){
+      margin-right: 0;
+    }
+
+
+  }
+  &__form-block:nth-child(3) label{
+    position: relative;
+    &::before{
+      position: absolute;
+      content: url("../image/contact/ChevronDown(E70D).svg");
+      right: 19px;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: -1;
+    }
+  }
+
+  &__form-block:first-child label &__input {
+    width: 100%;
+
+  }
+  &__btn{
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 160px;
+    height: 50px;
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    outline: none;
+    cursor: none;
+
+  }
+}

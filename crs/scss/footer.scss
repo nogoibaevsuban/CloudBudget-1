@@ -1,0 +1,57 @@
+.footer {
+  padding: 85px 0 86px;
+  background: #FAFAFA;
+
+  &__title{
+    width: 254px;
+    margin-bottom: 40px;
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+  }
+  &__ul{
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+    list-style-type: none;
+    text-decoration: none;
+    }
+    &__address{
+      margin-bottom: 11px;
+    }
+  &__number{
+    text-decoration: none;
+    color: #101010;
+  }
+  &__icon{
+    margin-top: 22px;
+  }
+  &__subtitle{
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+    margin-bottom: 141px;
+  }
+  &__span{
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+  }
+  &__img{
+    width: 216px;
+    height: 31px;
+  }
+
+}

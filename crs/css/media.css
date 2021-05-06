@@ -1,0 +1,9 @@
+@media (max-width: 1024px) {
+  .contact {
+    max-width: 980px;
+  }
+
+  .contact__form {
+    width: 470px;
+  }
+}

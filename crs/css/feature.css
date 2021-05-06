@@ -1,0 +1,16 @@
+.features {
+  padding: 63px 0 229px;
+}
+.features__col {
+  height: 250px;
+  background: top left/100% 100%;
+}
+.features__col:first-child {
+  background: url("../image/bg1/Bg (2).png");
+}
+.features__col:first-child {
+  background: url("../image/bg1/Bg (3).png");
+}
+.features__col:first-child {
+  background: url("../image/bg1/Bg (4).png");
+}

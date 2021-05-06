@@ -1,0 +1,46 @@
+.home {
+  background: url("../image/home/Bg (1).png") top left/100% 100% no-repeat;
+  padding: 257px 0 187px;
+
+  &__title{
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  &__subtitle{
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 40px 0;
+
+
+  }
+  &__btn{
+    width: 160px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ED4C5C;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+}

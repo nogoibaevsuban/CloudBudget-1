@@ -1,0 +1,28 @@
+@import "../libs/Bootstrap/bootstrap-grid.min.css";
+@import "../fonts/stylesheet.css";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container{
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+.row{
+  margin: 0 -15px;
+}
+$font-family: Lato,sans-serif;
+@import "header";
+@import "home";
+@import "video";
+@import "feature";
+@import "Technology";
+@import "stay";
+@import "contact";
+@import "footer";
+@import "media";
+

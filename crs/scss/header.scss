@@ -1,0 +1,101 @@
+@mixin text ($ln){
+  color: #FFFFFF;
+  font-family: Lato,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: $ln;
+}
+.container{
+  max-width: 1110px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+
+
+  &__nav {
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  &__logo{
+    column-gap: 9px;
+    display: flex;
+  }
+  &__img{
+    width: 24px;
+    height: 17px;
+  }
+  &__title{
+    @include text (22px);
+    font-size: 18px;
+    align-items: center;
+    text-transform: uppercase;
+
+  }
+  &__menu{
+    @include text (17px);
+    column-gap: 25px;
+    list-style-type: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+  }
+  &__item{
+    @include text (17px);
+    font-size: 14px;
+    text-transform: uppercase;
+    a{
+      color: white;
+      text-decoration: none;
+    }
+  }
+  &__form{
+    column-gap: 25px;
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+  }
+  &__btn{
+    @include text (17px);
+    display: flex;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #FFFFFF ;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: bold;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+  }
+  &__formSelect{
+    width: 96px;
+    height: 32px;
+    padding-left: 43px ;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
+
+  &__lang{
+    color: #FFFFFF;
+    background-color: saddlebrown;
+  }
+  &__logo-burger{
+    display: none;
+  }
+
+}
